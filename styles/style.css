@@ -1,0 +1,94 @@
+body {
+    background-color: green;
+}
+
+.main-header {
+    width: 100%;
+    max-width: 1000px;
+    background-color: gray;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-list a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.main_img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.title {
+    color: red;
+    text-align: center;
+}
+
+.gallery {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery-iten {
+    width: 23%;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.gallery-img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.gallery-title {
+    text-align: center;
+    color:brown
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+textarea {
+    grid-column: 1/-1;
+    resize: none;
+}
+
+form button {
+    grid-column: 1/-1;
+}
+
+.main_img {
+     transition: 5.0s;
+}
+
+.main_img:hover {
+    transform: rotate(1000deg);
+}
